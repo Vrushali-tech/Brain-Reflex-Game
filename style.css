@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+/* Gradient Background */
+body{
+    background: linear-gradient(135deg,#a18cd1,#fbc2eb);
+}
+
+/* Center Layout */
+#main{
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+/* Glass Panel */
+#panel{
+    width:80%;
+    height:85%;
+    border-radius:15px;
+    overflow:hidden;
+    backdrop-filter: blur(15px);
+    background: rgba(255,255,255,0.2);
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Top Panel */
+#ptop{
+    height:100px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background:#8e44ad;
+    color:white;
+}
+
+.elem{
+    display:flex;
+    gap:15px;
+    align-items:center;
+}
+
+.box{
+    background:white;
+    color:#8e44ad;
+    padding:10px 20px;
+    border-radius:6px;
+    font-weight:bold;
+    transition:0.2s;
+}
+
+/* Bottom Panel */
+#pbtm{
+    height:calc(100% - 100px);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    padding:20px;
+}
+
+/* Bubble */
+.bubble{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background:#8e44ad;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    transition:0.2s;
+}
+
+.bubble:hover{
+    transform:scale(1.2);
+    background:#5e3370;
+}
+
+.bubble:active{
+    transform:scale(0.8);
+}
+
+/* Start Button */
+#startBtn{
+    padding:15px 30px;
+    font-size:18px;
+    border:none;
+    border-radius:8px;
+    background:#8e44ad;
+    color:white;
+    cursor:pointer;
+}
+
+#startBtn:hover{
+    background:#6c3483;
+}
+
+/* Game Over */
+.gameover{
+    text-align:center;
+}
+
+.gameover button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    background:#8e44ad;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+}
+
+/* Responsive */
+@media(max-width:600px){
+    .bubble{
+        width:40px;
+        height:40px;
+    }
+}
