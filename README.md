@@ -31,9 +31,10 @@ An interactive browser-based number bubble game built using **HTML, CSS, and Jav
 ![Game Screenshot](preview.png)
 
 ## 🌐 Live Demo
-(Coming Soon)
+https://vrushali-tech.github.io/Brain-Reflex-Game/
 
 ---
 
 ⭐ Developed by Vrushali Ugale  
+
 📘 Built while learning from Sheriyans Coding School tutorials and further enhanced independently.
