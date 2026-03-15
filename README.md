@@ -5,7 +5,7 @@ An interactive browser-based number bubble game built using **HTML, CSS, and Jav
 ## 🚀 Features
 - Random target number
 - Countdown timer
-- Real-time score tracking
+- Real-time score tracking 
 - Interactive bubble animations
 - Game Over screen with Play Again option
 - Responsive design for different screen sizes
